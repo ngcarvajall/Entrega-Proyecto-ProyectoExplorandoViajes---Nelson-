@@ -1,0 +1,2039 @@
+{
+    "status": true,
+    "timestamp": 1729356589590,
+    "sessionId": "8861858c-a929-47b3-8059-7946da419997",
+    "data": {
+        "context": {
+            "status": "incomplete",
+            "sessionId": "ClQIARJQCk4KJDg4NjE4NThjLWE5MjktNDdiMy04MDU5LTc5NDZkYTQxOTk5NxACGiRkYTkwOGI3My03NmI3LTRjMzQtOTZkZS1jYTUwZmEzYjMyODASKHVzc185OGU1YTE5MC1hOTUzLTRhMjktOWNjNi03ZGQ3MmI1ZDgwMDM=",
+            "totalResults": 10
+        },
+        "itineraries": [
+            {
+                "id": "13870-2410252235--32356-0-13577-2410252255|13577-2410281505--32356-0-13870-2410281725",
+                "price": {
+                    "raw": 154.36,
+                    "formatted": "155 \u20ac",
+                    "pricingOptionId": "pCQU846YRcaY"
+                },
+                "legs": [
+                    {
+                        "id": "13870-2410252235--32356-0-13577-2410252255",
+                        "origin": {
+                            "id": "MAD",
+                            "entityId": "95565077",
+                            "name": "Madrid",
+                            "displayCode": "MAD",
+                            "city": "Madrid",
+                            "country": "Spain",
+                            "isHighlighted": false
+                        },
+                        "destination": {
+                            "id": "LIS",
+                            "entityId": "95565055",
+                            "name": "Lisbon",
+                            "displayCode": "LIS",
+                            "city": "Lisbon",
+                            "country": "Portugal",
+                            "isHighlighted": false
+                        },
+                        "durationInMinutes": 80,
+                        "stopCount": 0,
+                        "isSmallestStops": false,
+                        "departure": "2024-10-25T22:35:00",
+                        "arrival": "2024-10-25T22:55:00",
+                        "timeDeltaInDays": 0,
+                        "carriers": {
+                            "marketing": [
+                                {
+                                    "id": -32356,
+                                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/EZ.png",
+                                    "name": "easyJet"
+                                }
+                            ],
+                            "operationType": "fully_operated"
+                        },
+                        "segments": [
+                            {
+                                "id": "13870-13577-2410252235-2410252255--32356",
+                                "origin": {
+                                    "flightPlaceId": "MAD",
+                                    "displayCode": "MAD",
+                                    "parent": {
+                                        "flightPlaceId": "MADR",
+                                        "displayCode": "MAD",
+                                        "name": "Madrid",
+                                        "type": "City"
+                                    },
+                                    "name": "Madrid",
+                                    "type": "Airport",
+                                    "country": "Spain"
+                                },
+                                "destination": {
+                                    "flightPlaceId": "LIS",
+                                    "displayCode": "LIS",
+                                    "parent": {
+                                        "flightPlaceId": "LISB",
+                                        "displayCode": "LIS",
+                                        "name": "Lisbon",
+                                        "type": "City"
+                                    },
+                                    "name": "Lisbon",
+                                    "type": "Airport",
+                                    "country": "Portugal"
+                                },
+                                "departure": "2024-10-25T22:35:00",
+                                "arrival": "2024-10-25T22:55:00",
+                                "durationInMinutes": 80,
+                                "flightNumber": "6724",
+                                "marketingCarrier": {
+                                    "id": -32356,
+                                    "name": "easyJet",
+                                    "alternateId": "EZ",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                },
+                                "operatingCarrier": {
+                                    "id": -32356,
+                                    "name": "easyJet",
+                                    "alternateId": "EZ",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "id": "13577-2410281505--32356-0-13870-2410281725",
+                        "origin": {
+                            "id": "LIS",
+                            "entityId": "95565055",
+                            "name": "Lisbon",
+                            "displayCode": "LIS",
+                            "city": "Lisbon",
+                            "country": "Portugal",
+                            "isHighlighted": false
+                        },
+                        "destination": {
+                            "id": "MAD",
+                            "entityId": "95565077",
+                            "name": "Madrid",
+                            "displayCode": "MAD",
+                            "city": "Madrid",
+                            "country": "Spain",
+                            "isHighlighted": false
+                        },
+                        "durationInMinutes": 80,
+                        "stopCount": 0,
+                        "isSmallestStops": false,
+                        "departure": "2024-10-28T15:05:00",
+                        "arrival": "2024-10-28T17:25:00",
+                        "timeDeltaInDays": 0,
+                        "carriers": {
+                            "marketing": [
+                                {
+                                    "id": -32356,
+                                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/EZ.png",
+                                    "name": "easyJet"
+                                }
+                            ],
+                            "operationType": "fully_operated"
+                        },
+                        "segments": [
+                            {
+                                "id": "13577-13870-2410281505-2410281725--32356",
+                                "origin": {
+                                    "flightPlaceId": "LIS",
+                                    "displayCode": "LIS",
+                                    "parent": {
+                                        "flightPlaceId": "LISB",
+                                        "displayCode": "LIS",
+                                        "name": "Lisbon",
+                                        "type": "City"
+                                    },
+                                    "name": "Lisbon",
+                                    "type": "Airport",
+                                    "country": "Portugal"
+                                },
+                                "destination": {
+                                    "flightPlaceId": "MAD",
+                                    "displayCode": "MAD",
+                                    "parent": {
+                                        "flightPlaceId": "MADR",
+                                        "displayCode": "MAD",
+                                        "name": "Madrid",
+                                        "type": "City"
+                                    },
+                                    "name": "Madrid",
+                                    "type": "Airport",
+                                    "country": "Spain"
+                                },
+                                "departure": "2024-10-28T15:05:00",
+                                "arrival": "2024-10-28T17:25:00",
+                                "durationInMinutes": 80,
+                                "flightNumber": "7645",
+                                "marketingCarrier": {
+                                    "id": -32356,
+                                    "name": "easyJet",
+                                    "alternateId": "EZ",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                },
+                                "operatingCarrier": {
+                                    "id": -32356,
+                                    "name": "easyJet",
+                                    "alternateId": "EZ",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "isSelfTransfer": false,
+                "isProtectedSelfTransfer": false,
+                "farePolicy": {
+                    "isChangeAllowed": false,
+                    "isPartiallyChangeable": false,
+                    "isCancellationAllowed": false,
+                    "isPartiallyRefundable": false
+                },
+                "fareAttributes": {},
+                "tags": [
+                    "second_shortest"
+                ],
+                "isMashUp": false,
+                "hasFlexibleOptions": false,
+                "score": 0.999
+            },
+            {
+                "id": "13870-2410252300--32222-0-13577-2410252325|13577-2410281230--32222-0-13870-2410281455",
+                "price": {
+                    "raw": 160.41,
+                    "formatted": "161 \u20ac",
+                    "pricingOptionId": "copeTGAzVxGb"
+                },
+                "legs": [
+                    {
+                        "id": "13870-2410252300--32222-0-13577-2410252325",
+                        "origin": {
+                            "id": "MAD",
+                            "entityId": "95565077",
+                            "name": "Madrid",
+                            "displayCode": "MAD",
+                            "city": "Madrid",
+                            "country": "Spain",
+                            "isHighlighted": false
+                        },
+                        "destination": {
+                            "id": "LIS",
+                            "entityId": "95565055",
+                            "name": "Lisbon",
+                            "displayCode": "LIS",
+                            "city": "Lisbon",
+                            "country": "Portugal",
+                            "isHighlighted": false
+                        },
+                        "durationInMinutes": 85,
+                        "stopCount": 0,
+                        "isSmallestStops": false,
+                        "departure": "2024-10-25T23:00:00",
+                        "arrival": "2024-10-25T23:25:00",
+                        "timeDeltaInDays": 0,
+                        "carriers": {
+                            "marketing": [
+                                {
+                                    "id": -32222,
+                                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/IB.png",
+                                    "name": "Iberia"
+                                }
+                            ],
+                            "operationType": "fully_operated"
+                        },
+                        "segments": [
+                            {
+                                "id": "13870-13577-2410252300-2410252325--32222",
+                                "origin": {
+                                    "flightPlaceId": "MAD",
+                                    "displayCode": "MAD",
+                                    "parent": {
+                                        "flightPlaceId": "MADR",
+                                        "displayCode": "MAD",
+                                        "name": "Madrid",
+                                        "type": "City"
+                                    },
+                                    "name": "Madrid",
+                                    "type": "Airport",
+                                    "country": "Spain"
+                                },
+                                "destination": {
+                                    "flightPlaceId": "LIS",
+                                    "displayCode": "LIS",
+                                    "parent": {
+                                        "flightPlaceId": "LISB",
+                                        "displayCode": "LIS",
+                                        "name": "Lisbon",
+                                        "type": "City"
+                                    },
+                                    "name": "Lisbon",
+                                    "type": "Airport",
+                                    "country": "Portugal"
+                                },
+                                "departure": "2024-10-25T23:00:00",
+                                "arrival": "2024-10-25T23:25:00",
+                                "durationInMinutes": 85,
+                                "flightNumber": "3118",
+                                "marketingCarrier": {
+                                    "id": -32222,
+                                    "name": "Iberia",
+                                    "alternateId": "IB",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                },
+                                "operatingCarrier": {
+                                    "id": -32222,
+                                    "name": "Iberia",
+                                    "alternateId": "IB",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "id": "13577-2410281230--32222-0-13870-2410281455",
+                        "origin": {
+                            "id": "LIS",
+                            "entityId": "95565055",
+                            "name": "Lisbon",
+                            "displayCode": "LIS",
+                            "city": "Lisbon",
+                            "country": "Portugal",
+                            "isHighlighted": false
+                        },
+                        "destination": {
+                            "id": "MAD",
+                            "entityId": "95565077",
+                            "name": "Madrid",
+                            "displayCode": "MAD",
+                            "city": "Madrid",
+                            "country": "Spain",
+                            "isHighlighted": false
+                        },
+                        "durationInMinutes": 85,
+                        "stopCount": 0,
+                        "isSmallestStops": false,
+                        "departure": "2024-10-28T12:30:00",
+                        "arrival": "2024-10-28T14:55:00",
+                        "timeDeltaInDays": 0,
+                        "carriers": {
+                            "marketing": [
+                                {
+                                    "id": -32222,
+                                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/IB.png",
+                                    "name": "Iberia"
+                                }
+                            ],
+                            "operationType": "fully_operated"
+                        },
+                        "segments": [
+                            {
+                                "id": "13577-13870-2410281230-2410281455--32222",
+                                "origin": {
+                                    "flightPlaceId": "LIS",
+                                    "displayCode": "LIS",
+                                    "parent": {
+                                        "flightPlaceId": "LISB",
+                                        "displayCode": "LIS",
+                                        "name": "Lisbon",
+                                        "type": "City"
+                                    },
+                                    "name": "Lisbon",
+                                    "type": "Airport",
+                                    "country": "Portugal"
+                                },
+                                "destination": {
+                                    "flightPlaceId": "MAD",
+                                    "displayCode": "MAD",
+                                    "parent": {
+                                        "flightPlaceId": "MADR",
+                                        "displayCode": "MAD",
+                                        "name": "Madrid",
+                                        "type": "City"
+                                    },
+                                    "name": "Madrid",
+                                    "type": "Airport",
+                                    "country": "Spain"
+                                },
+                                "departure": "2024-10-28T12:30:00",
+                                "arrival": "2024-10-28T14:55:00",
+                                "durationInMinutes": 85,
+                                "flightNumber": "532",
+                                "marketingCarrier": {
+                                    "id": -32222,
+                                    "name": "Iberia",
+                                    "alternateId": "IB",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                },
+                                "operatingCarrier": {
+                                    "id": -32222,
+                                    "name": "Iberia",
+                                    "alternateId": "IB",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "isSelfTransfer": false,
+                "isProtectedSelfTransfer": false,
+                "farePolicy": {
+                    "isChangeAllowed": false,
+                    "isPartiallyChangeable": false,
+                    "isCancellationAllowed": false,
+                    "isPartiallyRefundable": false
+                },
+                "fareAttributes": {},
+                "isMashUp": false,
+                "hasFlexibleOptions": false,
+                "score": 0.940825
+            },
+            {
+                "id": "13870-2410252135--31915-0-13577-2410252200|13577-2410282200--31915-0-13870-2410290020",
+                "price": {
+                    "raw": 130.8,
+                    "formatted": "131 \u20ac",
+                    "pricingOptionId": "S8khI8JrLeL3"
+                },
+                "legs": [
+                    {
+                        "id": "13870-2410252135--31915-0-13577-2410252200",
+                        "origin": {
+                            "id": "MAD",
+                            "entityId": "95565077",
+                            "name": "Madrid",
+                            "displayCode": "MAD",
+                            "city": "Madrid",
+                            "country": "Spain",
+                            "isHighlighted": false
+                        },
+                        "destination": {
+                            "id": "LIS",
+                            "entityId": "95565055",
+                            "name": "Lisbon",
+                            "displayCode": "LIS",
+                            "city": "Lisbon",
+                            "country": "Portugal",
+                            "isHighlighted": false
+                        },
+                        "durationInMinutes": 85,
+                        "stopCount": 0,
+                        "isSmallestStops": false,
+                        "departure": "2024-10-25T21:35:00",
+                        "arrival": "2024-10-25T22:00:00",
+                        "timeDeltaInDays": 0,
+                        "carriers": {
+                            "marketing": [
+                                {
+                                    "id": -31915,
+                                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FR.png",
+                                    "name": "Ryanair"
+                                }
+                            ],
+                            "operationType": "fully_operated"
+                        },
+                        "segments": [
+                            {
+                                "id": "13870-13577-2410252135-2410252200--31915",
+                                "origin": {
+                                    "flightPlaceId": "MAD",
+                                    "displayCode": "MAD",
+                                    "parent": {
+                                        "flightPlaceId": "MADR",
+                                        "displayCode": "MAD",
+                                        "name": "Madrid",
+                                        "type": "City"
+                                    },
+                                    "name": "Madrid",
+                                    "type": "Airport",
+                                    "country": "Spain"
+                                },
+                                "destination": {
+                                    "flightPlaceId": "LIS",
+                                    "displayCode": "LIS",
+                                    "parent": {
+                                        "flightPlaceId": "LISB",
+                                        "displayCode": "LIS",
+                                        "name": "Lisbon",
+                                        "type": "City"
+                                    },
+                                    "name": "Lisbon",
+                                    "type": "Airport",
+                                    "country": "Portugal"
+                                },
+                                "departure": "2024-10-25T21:35:00",
+                                "arrival": "2024-10-25T22:00:00",
+                                "durationInMinutes": 85,
+                                "flightNumber": "9744",
+                                "marketingCarrier": {
+                                    "id": -31915,
+                                    "name": "Ryanair",
+                                    "alternateId": "FR",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                },
+                                "operatingCarrier": {
+                                    "id": -31915,
+                                    "name": "Ryanair",
+                                    "alternateId": "FR",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "id": "13577-2410282200--31915-0-13870-2410290020",
+                        "origin": {
+                            "id": "LIS",
+                            "entityId": "95565055",
+                            "name": "Lisbon",
+                            "displayCode": "LIS",
+                            "city": "Lisbon",
+                            "country": "Portugal",
+                            "isHighlighted": false
+                        },
+                        "destination": {
+                            "id": "MAD",
+                            "entityId": "95565077",
+                            "name": "Madrid",
+                            "displayCode": "MAD",
+                            "city": "Madrid",
+                            "country": "Spain",
+                            "isHighlighted": false
+                        },
+                        "durationInMinutes": 80,
+                        "stopCount": 0,
+                        "isSmallestStops": false,
+                        "departure": "2024-10-28T22:00:00",
+                        "arrival": "2024-10-29T00:20:00",
+                        "timeDeltaInDays": 1,
+                        "carriers": {
+                            "marketing": [
+                                {
+                                    "id": -31915,
+                                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FR.png",
+                                    "name": "Ryanair"
+                                }
+                            ],
+                            "operationType": "fully_operated"
+                        },
+                        "segments": [
+                            {
+                                "id": "13577-13870-2410282200-2410290020--31915",
+                                "origin": {
+                                    "flightPlaceId": "LIS",
+                                    "displayCode": "LIS",
+                                    "parent": {
+                                        "flightPlaceId": "LISB",
+                                        "displayCode": "LIS",
+                                        "name": "Lisbon",
+                                        "type": "City"
+                                    },
+                                    "name": "Lisbon",
+                                    "type": "Airport",
+                                    "country": "Portugal"
+                                },
+                                "destination": {
+                                    "flightPlaceId": "MAD",
+                                    "displayCode": "MAD",
+                                    "parent": {
+                                        "flightPlaceId": "MADR",
+                                        "displayCode": "MAD",
+                                        "name": "Madrid",
+                                        "type": "City"
+                                    },
+                                    "name": "Madrid",
+                                    "type": "Airport",
+                                    "country": "Spain"
+                                },
+                                "departure": "2024-10-28T22:00:00",
+                                "arrival": "2024-10-29T00:20:00",
+                                "durationInMinutes": 80,
+                                "flightNumber": "9743",
+                                "marketingCarrier": {
+                                    "id": -31915,
+                                    "name": "Ryanair",
+                                    "alternateId": "FR",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                },
+                                "operatingCarrier": {
+                                    "id": -31915,
+                                    "name": "Ryanair",
+                                    "alternateId": "FR",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "isSelfTransfer": false,
+                "isProtectedSelfTransfer": false,
+                "farePolicy": {
+                    "isChangeAllowed": false,
+                    "isPartiallyChangeable": false,
+                    "isCancellationAllowed": false,
+                    "isPartiallyRefundable": false
+                },
+                "eco": {
+                    "ecoContenderDelta": 7.5758276
+                },
+                "fareAttributes": {},
+                "tags": [
+                    "second_cheapest",
+                    "third_shortest"
+                ],
+                "isMashUp": false,
+                "hasFlexibleOptions": false,
+                "score": 0.902771
+            },
+            {
+                "id": "13870-2410252235--32356-0-13577-2410252255|13577-2410282000--32356-0-13870-2410282225",
+                "price": {
+                    "raw": 146.36,
+                    "formatted": "147 \u20ac",
+                    "pricingOptionId": "BnJiSFBANDom"
+                },
+                "legs": [
+                    {
+                        "id": "13870-2410252235--32356-0-13577-2410252255",
+                        "origin": {
+                            "id": "MAD",
+                            "entityId": "95565077",
+                            "name": "Madrid",
+                            "displayCode": "MAD",
+                            "city": "Madrid",
+                            "country": "Spain",
+                            "isHighlighted": false
+                        },
+                        "destination": {
+                            "id": "LIS",
+                            "entityId": "95565055",
+                            "name": "Lisbon",
+                            "displayCode": "LIS",
+                            "city": "Lisbon",
+                            "country": "Portugal",
+                            "isHighlighted": false
+                        },
+                        "durationInMinutes": 80,
+                        "stopCount": 0,
+                        "isSmallestStops": false,
+                        "departure": "2024-10-25T22:35:00",
+                        "arrival": "2024-10-25T22:55:00",
+                        "timeDeltaInDays": 0,
+                        "carriers": {
+                            "marketing": [
+                                {
+                                    "id": -32356,
+                                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/EZ.png",
+                                    "name": "easyJet"
+                                }
+                            ],
+                            "operationType": "fully_operated"
+                        },
+                        "segments": [
+                            {
+                                "id": "13870-13577-2410252235-2410252255--32356",
+                                "origin": {
+                                    "flightPlaceId": "MAD",
+                                    "displayCode": "MAD",
+                                    "parent": {
+                                        "flightPlaceId": "MADR",
+                                        "displayCode": "MAD",
+                                        "name": "Madrid",
+                                        "type": "City"
+                                    },
+                                    "name": "Madrid",
+                                    "type": "Airport",
+                                    "country": "Spain"
+                                },
+                                "destination": {
+                                    "flightPlaceId": "LIS",
+                                    "displayCode": "LIS",
+                                    "parent": {
+                                        "flightPlaceId": "LISB",
+                                        "displayCode": "LIS",
+                                        "name": "Lisbon",
+                                        "type": "City"
+                                    },
+                                    "name": "Lisbon",
+                                    "type": "Airport",
+                                    "country": "Portugal"
+                                },
+                                "departure": "2024-10-25T22:35:00",
+                                "arrival": "2024-10-25T22:55:00",
+                                "durationInMinutes": 80,
+                                "flightNumber": "6724",
+                                "marketingCarrier": {
+                                    "id": -32356,
+                                    "name": "easyJet",
+                                    "alternateId": "EZ",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                },
+                                "operatingCarrier": {
+                                    "id": -32356,
+                                    "name": "easyJet",
+                                    "alternateId": "EZ",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "id": "13577-2410282000--32356-0-13870-2410282225",
+                        "origin": {
+                            "id": "LIS",
+                            "entityId": "95565055",
+                            "name": "Lisbon",
+                            "displayCode": "LIS",
+                            "city": "Lisbon",
+                            "country": "Portugal",
+                            "isHighlighted": false
+                        },
+                        "destination": {
+                            "id": "MAD",
+                            "entityId": "95565077",
+                            "name": "Madrid",
+                            "displayCode": "MAD",
+                            "city": "Madrid",
+                            "country": "Spain",
+                            "isHighlighted": false
+                        },
+                        "durationInMinutes": 85,
+                        "stopCount": 0,
+                        "isSmallestStops": false,
+                        "departure": "2024-10-28T20:00:00",
+                        "arrival": "2024-10-28T22:25:00",
+                        "timeDeltaInDays": 0,
+                        "carriers": {
+                            "marketing": [
+                                {
+                                    "id": -32356,
+                                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/EZ.png",
+                                    "name": "easyJet"
+                                }
+                            ],
+                            "operationType": "fully_operated"
+                        },
+                        "segments": [
+                            {
+                                "id": "13577-13870-2410282000-2410282225--32356",
+                                "origin": {
+                                    "flightPlaceId": "LIS",
+                                    "displayCode": "LIS",
+                                    "parent": {
+                                        "flightPlaceId": "LISB",
+                                        "displayCode": "LIS",
+                                        "name": "Lisbon",
+                                        "type": "City"
+                                    },
+                                    "name": "Lisbon",
+                                    "type": "Airport",
+                                    "country": "Portugal"
+                                },
+                                "destination": {
+                                    "flightPlaceId": "MAD",
+                                    "displayCode": "MAD",
+                                    "parent": {
+                                        "flightPlaceId": "MADR",
+                                        "displayCode": "MAD",
+                                        "name": "Madrid",
+                                        "type": "City"
+                                    },
+                                    "name": "Madrid",
+                                    "type": "Airport",
+                                    "country": "Spain"
+                                },
+                                "departure": "2024-10-28T20:00:00",
+                                "arrival": "2024-10-28T22:25:00",
+                                "durationInMinutes": 85,
+                                "flightNumber": "7651",
+                                "marketingCarrier": {
+                                    "id": -32356,
+                                    "name": "easyJet",
+                                    "alternateId": "EZ",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                },
+                                "operatingCarrier": {
+                                    "id": -32356,
+                                    "name": "easyJet",
+                                    "alternateId": "EZ",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "isSelfTransfer": false,
+                "isProtectedSelfTransfer": false,
+                "farePolicy": {
+                    "isChangeAllowed": false,
+                    "isPartiallyChangeable": false,
+                    "isCancellationAllowed": false,
+                    "isPartiallyRefundable": false
+                },
+                "fareAttributes": {},
+                "isMashUp": false,
+                "hasFlexibleOptions": false,
+                "score": 0.82007
+            },
+            {
+                "id": "13870-2410252235--32356-0-13577-2410252255|13577-2410280715--32356-0-13870-2410280940",
+                "price": {
+                    "raw": 146.36,
+                    "formatted": "147 \u20ac",
+                    "pricingOptionId": "N6NSsGkdoAGS"
+                },
+                "legs": [
+                    {
+                        "id": "13870-2410252235--32356-0-13577-2410252255",
+                        "origin": {
+                            "id": "MAD",
+                            "entityId": "95565077",
+                            "name": "Madrid",
+                            "displayCode": "MAD",
+                            "city": "Madrid",
+                            "country": "Spain",
+                            "isHighlighted": false
+                        },
+                        "destination": {
+                            "id": "LIS",
+                            "entityId": "95565055",
+                            "name": "Lisbon",
+                            "displayCode": "LIS",
+                            "city": "Lisbon",
+                            "country": "Portugal",
+                            "isHighlighted": false
+                        },
+                        "durationInMinutes": 80,
+                        "stopCount": 0,
+                        "isSmallestStops": false,
+                        "departure": "2024-10-25T22:35:00",
+                        "arrival": "2024-10-25T22:55:00",
+                        "timeDeltaInDays": 0,
+                        "carriers": {
+                            "marketing": [
+                                {
+                                    "id": -32356,
+                                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/EZ.png",
+                                    "name": "easyJet"
+                                }
+                            ],
+                            "operationType": "fully_operated"
+                        },
+                        "segments": [
+                            {
+                                "id": "13870-13577-2410252235-2410252255--32356",
+                                "origin": {
+                                    "flightPlaceId": "MAD",
+                                    "displayCode": "MAD",
+                                    "parent": {
+                                        "flightPlaceId": "MADR",
+                                        "displayCode": "MAD",
+                                        "name": "Madrid",
+                                        "type": "City"
+                                    },
+                                    "name": "Madrid",
+                                    "type": "Airport",
+                                    "country": "Spain"
+                                },
+                                "destination": {
+                                    "flightPlaceId": "LIS",
+                                    "displayCode": "LIS",
+                                    "parent": {
+                                        "flightPlaceId": "LISB",
+                                        "displayCode": "LIS",
+                                        "name": "Lisbon",
+                                        "type": "City"
+                                    },
+                                    "name": "Lisbon",
+                                    "type": "Airport",
+                                    "country": "Portugal"
+                                },
+                                "departure": "2024-10-25T22:35:00",
+                                "arrival": "2024-10-25T22:55:00",
+                                "durationInMinutes": 80,
+                                "flightNumber": "6724",
+                                "marketingCarrier": {
+                                    "id": -32356,
+                                    "name": "easyJet",
+                                    "alternateId": "EZ",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                },
+                                "operatingCarrier": {
+                                    "id": -32356,
+                                    "name": "easyJet",
+                                    "alternateId": "EZ",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "id": "13577-2410280715--32356-0-13870-2410280940",
+                        "origin": {
+                            "id": "LIS",
+                            "entityId": "95565055",
+                            "name": "Lisbon",
+                            "displayCode": "LIS",
+                            "city": "Lisbon",
+                            "country": "Portugal",
+                            "isHighlighted": false
+                        },
+                        "destination": {
+                            "id": "MAD",
+                            "entityId": "95565077",
+                            "name": "Madrid",
+                            "displayCode": "MAD",
+                            "city": "Madrid",
+                            "country": "Spain",
+                            "isHighlighted": false
+                        },
+                        "durationInMinutes": 85,
+                        "stopCount": 0,
+                        "isSmallestStops": false,
+                        "departure": "2024-10-28T07:15:00",
+                        "arrival": "2024-10-28T09:40:00",
+                        "timeDeltaInDays": 0,
+                        "carriers": {
+                            "marketing": [
+                                {
+                                    "id": -32356,
+                                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/EZ.png",
+                                    "name": "easyJet"
+                                }
+                            ],
+                            "operationType": "fully_operated"
+                        },
+                        "segments": [
+                            {
+                                "id": "13577-13870-2410280715-2410280940--32356",
+                                "origin": {
+                                    "flightPlaceId": "LIS",
+                                    "displayCode": "LIS",
+                                    "parent": {
+                                        "flightPlaceId": "LISB",
+                                        "displayCode": "LIS",
+                                        "name": "Lisbon",
+                                        "type": "City"
+                                    },
+                                    "name": "Lisbon",
+                                    "type": "Airport",
+                                    "country": "Portugal"
+                                },
+                                "destination": {
+                                    "flightPlaceId": "MAD",
+                                    "displayCode": "MAD",
+                                    "parent": {
+                                        "flightPlaceId": "MADR",
+                                        "displayCode": "MAD",
+                                        "name": "Madrid",
+                                        "type": "City"
+                                    },
+                                    "name": "Madrid",
+                                    "type": "Airport",
+                                    "country": "Spain"
+                                },
+                                "departure": "2024-10-28T07:15:00",
+                                "arrival": "2024-10-28T09:40:00",
+                                "durationInMinutes": 85,
+                                "flightNumber": "7639",
+                                "marketingCarrier": {
+                                    "id": -32356,
+                                    "name": "easyJet",
+                                    "alternateId": "EZ",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                },
+                                "operatingCarrier": {
+                                    "id": -32356,
+                                    "name": "easyJet",
+                                    "alternateId": "EZ",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "isSelfTransfer": false,
+                "isProtectedSelfTransfer": false,
+                "farePolicy": {
+                    "isChangeAllowed": false,
+                    "isPartiallyChangeable": false,
+                    "isCancellationAllowed": false,
+                    "isPartiallyRefundable": false
+                },
+                "fareAttributes": {},
+                "isMashUp": false,
+                "hasFlexibleOptions": false,
+                "score": 0.810149
+            },
+            {
+                "id": "13870-2410250955--32356-0-13577-2410251020|13577-2410282200--31915-0-13870-2410290020",
+                "price": {
+                    "raw": 187.3,
+                    "formatted": "188 \u20ac",
+                    "pricingOptionId": "6o4vem97Xx2E"
+                },
+                "legs": [
+                    {
+                        "id": "13870-2410250955--32356-0-13577-2410251020",
+                        "origin": {
+                            "id": "MAD",
+                            "entityId": "95565077",
+                            "name": "Madrid",
+                            "displayCode": "MAD",
+                            "city": "Madrid",
+                            "country": "Spain",
+                            "isHighlighted": false
+                        },
+                        "destination": {
+                            "id": "LIS",
+                            "entityId": "95565055",
+                            "name": "Lisbon",
+                            "displayCode": "LIS",
+                            "city": "Lisbon",
+                            "country": "Portugal",
+                            "isHighlighted": false
+                        },
+                        "durationInMinutes": 85,
+                        "stopCount": 0,
+                        "isSmallestStops": false,
+                        "departure": "2024-10-25T09:55:00",
+                        "arrival": "2024-10-25T10:20:00",
+                        "timeDeltaInDays": 0,
+                        "carriers": {
+                            "marketing": [
+                                {
+                                    "id": -32356,
+                                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/EZ.png",
+                                    "name": "easyJet"
+                                }
+                            ],
+                            "operationType": "fully_operated"
+                        },
+                        "segments": [
+                            {
+                                "id": "13870-13577-2410250955-2410251020--32356",
+                                "origin": {
+                                    "flightPlaceId": "MAD",
+                                    "displayCode": "MAD",
+                                    "parent": {
+                                        "flightPlaceId": "MADR",
+                                        "displayCode": "MAD",
+                                        "name": "Madrid",
+                                        "type": "City"
+                                    },
+                                    "name": "Madrid",
+                                    "type": "Airport",
+                                    "country": "Spain"
+                                },
+                                "destination": {
+                                    "flightPlaceId": "LIS",
+                                    "displayCode": "LIS",
+                                    "parent": {
+                                        "flightPlaceId": "LISB",
+                                        "displayCode": "LIS",
+                                        "name": "Lisbon",
+                                        "type": "City"
+                                    },
+                                    "name": "Lisbon",
+                                    "type": "Airport",
+                                    "country": "Portugal"
+                                },
+                                "departure": "2024-10-25T09:55:00",
+                                "arrival": "2024-10-25T10:20:00",
+                                "durationInMinutes": 85,
+                                "flightNumber": "7652",
+                                "marketingCarrier": {
+                                    "id": -32356,
+                                    "name": "easyJet",
+                                    "alternateId": "EZ",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                },
+                                "operatingCarrier": {
+                                    "id": -32356,
+                                    "name": "easyJet",
+                                    "alternateId": "EZ",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "id": "13577-2410282200--31915-0-13870-2410290020",
+                        "origin": {
+                            "id": "LIS",
+                            "entityId": "95565055",
+                            "name": "Lisbon",
+                            "displayCode": "LIS",
+                            "city": "Lisbon",
+                            "country": "Portugal",
+                            "isHighlighted": false
+                        },
+                        "destination": {
+                            "id": "MAD",
+                            "entityId": "95565077",
+                            "name": "Madrid",
+                            "displayCode": "MAD",
+                            "city": "Madrid",
+                            "country": "Spain",
+                            "isHighlighted": false
+                        },
+                        "durationInMinutes": 80,
+                        "stopCount": 0,
+                        "isSmallestStops": false,
+                        "departure": "2024-10-28T22:00:00",
+                        "arrival": "2024-10-29T00:20:00",
+                        "timeDeltaInDays": 1,
+                        "carriers": {
+                            "marketing": [
+                                {
+                                    "id": -31915,
+                                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FR.png",
+                                    "name": "Ryanair"
+                                }
+                            ],
+                            "operationType": "fully_operated"
+                        },
+                        "segments": [
+                            {
+                                "id": "13577-13870-2410282200-2410290020--31915",
+                                "origin": {
+                                    "flightPlaceId": "LIS",
+                                    "displayCode": "LIS",
+                                    "parent": {
+                                        "flightPlaceId": "LISB",
+                                        "displayCode": "LIS",
+                                        "name": "Lisbon",
+                                        "type": "City"
+                                    },
+                                    "name": "Lisbon",
+                                    "type": "Airport",
+                                    "country": "Portugal"
+                                },
+                                "destination": {
+                                    "flightPlaceId": "MAD",
+                                    "displayCode": "MAD",
+                                    "parent": {
+                                        "flightPlaceId": "MADR",
+                                        "displayCode": "MAD",
+                                        "name": "Madrid",
+                                        "type": "City"
+                                    },
+                                    "name": "Madrid",
+                                    "type": "Airport",
+                                    "country": "Spain"
+                                },
+                                "departure": "2024-10-28T22:00:00",
+                                "arrival": "2024-10-29T00:20:00",
+                                "durationInMinutes": 80,
+                                "flightNumber": "9743",
+                                "marketingCarrier": {
+                                    "id": -31915,
+                                    "name": "Ryanair",
+                                    "alternateId": "FR",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                },
+                                "operatingCarrier": {
+                                    "id": -31915,
+                                    "name": "Ryanair",
+                                    "alternateId": "FR",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "isSelfTransfer": false,
+                "isProtectedSelfTransfer": false,
+                "farePolicy": {
+                    "isChangeAllowed": false,
+                    "isPartiallyChangeable": false,
+                    "isCancellationAllowed": false,
+                    "isPartiallyRefundable": false
+                },
+                "eco": {
+                    "ecoContenderDelta": 8.4570465
+                },
+                "fareAttributes": {},
+                "isMashUp": true,
+                "hasFlexibleOptions": false,
+                "score": 0.803563
+            },
+            {
+                "id": "13870-2410252300--32222-0-13577-2410252325|13577-2410281845--32222-0-13870-2410282110",
+                "price": {
+                    "raw": 173.41,
+                    "formatted": "174 \u20ac",
+                    "pricingOptionId": "P3IT1pm1M14R"
+                },
+                "legs": [
+                    {
+                        "id": "13870-2410252300--32222-0-13577-2410252325",
+                        "origin": {
+                            "id": "MAD",
+                            "entityId": "95565077",
+                            "name": "Madrid",
+                            "displayCode": "MAD",
+                            "city": "Madrid",
+                            "country": "Spain",
+                            "isHighlighted": false
+                        },
+                        "destination": {
+                            "id": "LIS",
+                            "entityId": "95565055",
+                            "name": "Lisbon",
+                            "displayCode": "LIS",
+                            "city": "Lisbon",
+                            "country": "Portugal",
+                            "isHighlighted": false
+                        },
+                        "durationInMinutes": 85,
+                        "stopCount": 0,
+                        "isSmallestStops": false,
+                        "departure": "2024-10-25T23:00:00",
+                        "arrival": "2024-10-25T23:25:00",
+                        "timeDeltaInDays": 0,
+                        "carriers": {
+                            "marketing": [
+                                {
+                                    "id": -32222,
+                                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/IB.png",
+                                    "name": "Iberia"
+                                }
+                            ],
+                            "operationType": "fully_operated"
+                        },
+                        "segments": [
+                            {
+                                "id": "13870-13577-2410252300-2410252325--32222",
+                                "origin": {
+                                    "flightPlaceId": "MAD",
+                                    "displayCode": "MAD",
+                                    "parent": {
+                                        "flightPlaceId": "MADR",
+                                        "displayCode": "MAD",
+                                        "name": "Madrid",
+                                        "type": "City"
+                                    },
+                                    "name": "Madrid",
+                                    "type": "Airport",
+                                    "country": "Spain"
+                                },
+                                "destination": {
+                                    "flightPlaceId": "LIS",
+                                    "displayCode": "LIS",
+                                    "parent": {
+                                        "flightPlaceId": "LISB",
+                                        "displayCode": "LIS",
+                                        "name": "Lisbon",
+                                        "type": "City"
+                                    },
+                                    "name": "Lisbon",
+                                    "type": "Airport",
+                                    "country": "Portugal"
+                                },
+                                "departure": "2024-10-25T23:00:00",
+                                "arrival": "2024-10-25T23:25:00",
+                                "durationInMinutes": 85,
+                                "flightNumber": "3118",
+                                "marketingCarrier": {
+                                    "id": -32222,
+                                    "name": "Iberia",
+                                    "alternateId": "IB",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                },
+                                "operatingCarrier": {
+                                    "id": -32222,
+                                    "name": "Iberia",
+                                    "alternateId": "IB",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "id": "13577-2410281845--32222-0-13870-2410282110",
+                        "origin": {
+                            "id": "LIS",
+                            "entityId": "95565055",
+                            "name": "Lisbon",
+                            "displayCode": "LIS",
+                            "city": "Lisbon",
+                            "country": "Portugal",
+                            "isHighlighted": false
+                        },
+                        "destination": {
+                            "id": "MAD",
+                            "entityId": "95565077",
+                            "name": "Madrid",
+                            "displayCode": "MAD",
+                            "city": "Madrid",
+                            "country": "Spain",
+                            "isHighlighted": false
+                        },
+                        "durationInMinutes": 85,
+                        "stopCount": 0,
+                        "isSmallestStops": false,
+                        "departure": "2024-10-28T18:45:00",
+                        "arrival": "2024-10-28T21:10:00",
+                        "timeDeltaInDays": 0,
+                        "carriers": {
+                            "marketing": [
+                                {
+                                    "id": -32222,
+                                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/IB.png",
+                                    "name": "Iberia"
+                                }
+                            ],
+                            "operationType": "fully_operated"
+                        },
+                        "segments": [
+                            {
+                                "id": "13577-13870-2410281845-2410282110--32222",
+                                "origin": {
+                                    "flightPlaceId": "LIS",
+                                    "displayCode": "LIS",
+                                    "parent": {
+                                        "flightPlaceId": "LISB",
+                                        "displayCode": "LIS",
+                                        "name": "Lisbon",
+                                        "type": "City"
+                                    },
+                                    "name": "Lisbon",
+                                    "type": "Airport",
+                                    "country": "Portugal"
+                                },
+                                "destination": {
+                                    "flightPlaceId": "MAD",
+                                    "displayCode": "MAD",
+                                    "parent": {
+                                        "flightPlaceId": "MADR",
+                                        "displayCode": "MAD",
+                                        "name": "Madrid",
+                                        "type": "City"
+                                    },
+                                    "name": "Madrid",
+                                    "type": "Airport",
+                                    "country": "Spain"
+                                },
+                                "departure": "2024-10-28T18:45:00",
+                                "arrival": "2024-10-28T21:10:00",
+                                "durationInMinutes": 85,
+                                "flightNumber": "536",
+                                "marketingCarrier": {
+                                    "id": -32222,
+                                    "name": "Iberia",
+                                    "alternateId": "IB",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                },
+                                "operatingCarrier": {
+                                    "id": -32222,
+                                    "name": "Iberia",
+                                    "alternateId": "IB",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "isSelfTransfer": false,
+                "isProtectedSelfTransfer": false,
+                "farePolicy": {
+                    "isChangeAllowed": false,
+                    "isPartiallyChangeable": false,
+                    "isCancellationAllowed": false,
+                    "isPartiallyRefundable": false
+                },
+                "fareAttributes": {},
+                "isMashUp": false,
+                "hasFlexibleOptions": false,
+                "score": 0.783298
+            },
+            {
+                "id": "13870-2410252135--31915-0-13577-2410252200|13577-2410281505--32356-0-13870-2410281725",
+                "price": {
+                    "raw": 151.98,
+                    "formatted": "152 \u20ac",
+                    "pricingOptionId": "ezVIF5XwiCHJ"
+                },
+                "legs": [
+                    {
+                        "id": "13870-2410252135--31915-0-13577-2410252200",
+                        "origin": {
+                            "id": "MAD",
+                            "entityId": "95565077",
+                            "name": "Madrid",
+                            "displayCode": "MAD",
+                            "city": "Madrid",
+                            "country": "Spain",
+                            "isHighlighted": false
+                        },
+                        "destination": {
+                            "id": "LIS",
+                            "entityId": "95565055",
+                            "name": "Lisbon",
+                            "displayCode": "LIS",
+                            "city": "Lisbon",
+                            "country": "Portugal",
+                            "isHighlighted": false
+                        },
+                        "durationInMinutes": 85,
+                        "stopCount": 0,
+                        "isSmallestStops": false,
+                        "departure": "2024-10-25T21:35:00",
+                        "arrival": "2024-10-25T22:00:00",
+                        "timeDeltaInDays": 0,
+                        "carriers": {
+                            "marketing": [
+                                {
+                                    "id": -31915,
+                                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FR.png",
+                                    "name": "Ryanair"
+                                }
+                            ],
+                            "operationType": "fully_operated"
+                        },
+                        "segments": [
+                            {
+                                "id": "13870-13577-2410252135-2410252200--31915",
+                                "origin": {
+                                    "flightPlaceId": "MAD",
+                                    "displayCode": "MAD",
+                                    "parent": {
+                                        "flightPlaceId": "MADR",
+                                        "displayCode": "MAD",
+                                        "name": "Madrid",
+                                        "type": "City"
+                                    },
+                                    "name": "Madrid",
+                                    "type": "Airport",
+                                    "country": "Spain"
+                                },
+                                "destination": {
+                                    "flightPlaceId": "LIS",
+                                    "displayCode": "LIS",
+                                    "parent": {
+                                        "flightPlaceId": "LISB",
+                                        "displayCode": "LIS",
+                                        "name": "Lisbon",
+                                        "type": "City"
+                                    },
+                                    "name": "Lisbon",
+                                    "type": "Airport",
+                                    "country": "Portugal"
+                                },
+                                "departure": "2024-10-25T21:35:00",
+                                "arrival": "2024-10-25T22:00:00",
+                                "durationInMinutes": 85,
+                                "flightNumber": "9744",
+                                "marketingCarrier": {
+                                    "id": -31915,
+                                    "name": "Ryanair",
+                                    "alternateId": "FR",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                },
+                                "operatingCarrier": {
+                                    "id": -31915,
+                                    "name": "Ryanair",
+                                    "alternateId": "FR",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "id": "13577-2410281505--32356-0-13870-2410281725",
+                        "origin": {
+                            "id": "LIS",
+                            "entityId": "95565055",
+                            "name": "Lisbon",
+                            "displayCode": "LIS",
+                            "city": "Lisbon",
+                            "country": "Portugal",
+                            "isHighlighted": false
+                        },
+                        "destination": {
+                            "id": "MAD",
+                            "entityId": "95565077",
+                            "name": "Madrid",
+                            "displayCode": "MAD",
+                            "city": "Madrid",
+                            "country": "Spain",
+                            "isHighlighted": false
+                        },
+                        "durationInMinutes": 80,
+                        "stopCount": 0,
+                        "isSmallestStops": false,
+                        "departure": "2024-10-28T15:05:00",
+                        "arrival": "2024-10-28T17:25:00",
+                        "timeDeltaInDays": 0,
+                        "carriers": {
+                            "marketing": [
+                                {
+                                    "id": -32356,
+                                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/EZ.png",
+                                    "name": "easyJet"
+                                }
+                            ],
+                            "operationType": "fully_operated"
+                        },
+                        "segments": [
+                            {
+                                "id": "13577-13870-2410281505-2410281725--32356",
+                                "origin": {
+                                    "flightPlaceId": "LIS",
+                                    "displayCode": "LIS",
+                                    "parent": {
+                                        "flightPlaceId": "LISB",
+                                        "displayCode": "LIS",
+                                        "name": "Lisbon",
+                                        "type": "City"
+                                    },
+                                    "name": "Lisbon",
+                                    "type": "Airport",
+                                    "country": "Portugal"
+                                },
+                                "destination": {
+                                    "flightPlaceId": "MAD",
+                                    "displayCode": "MAD",
+                                    "parent": {
+                                        "flightPlaceId": "MADR",
+                                        "displayCode": "MAD",
+                                        "name": "Madrid",
+                                        "type": "City"
+                                    },
+                                    "name": "Madrid",
+                                    "type": "Airport",
+                                    "country": "Spain"
+                                },
+                                "departure": "2024-10-28T15:05:00",
+                                "arrival": "2024-10-28T17:25:00",
+                                "durationInMinutes": 80,
+                                "flightNumber": "7645",
+                                "marketingCarrier": {
+                                    "id": -32356,
+                                    "name": "easyJet",
+                                    "alternateId": "EZ",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                },
+                                "operatingCarrier": {
+                                    "id": -32356,
+                                    "name": "easyJet",
+                                    "alternateId": "EZ",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "isSelfTransfer": false,
+                "isProtectedSelfTransfer": false,
+                "farePolicy": {
+                    "isChangeAllowed": false,
+                    "isPartiallyChangeable": false,
+                    "isCancellationAllowed": false,
+                    "isPartiallyRefundable": false
+                },
+                "fareAttributes": {},
+                "isMashUp": true,
+                "hasFlexibleOptions": false,
+                "score": 0.755576
+            },
+            {
+                "id": "13870-2410252135--31915-0-13577-2410252200|13577-2410282000--32356-0-13870-2410282225",
+                "price": {
+                    "raw": 143.98,
+                    "formatted": "144 \u20ac",
+                    "pricingOptionId": "TyZgmfJA6mxp"
+                },
+                "legs": [
+                    {
+                        "id": "13870-2410252135--31915-0-13577-2410252200",
+                        "origin": {
+                            "id": "MAD",
+                            "entityId": "95565077",
+                            "name": "Madrid",
+                            "displayCode": "MAD",
+                            "city": "Madrid",
+                            "country": "Spain",
+                            "isHighlighted": false
+                        },
+                        "destination": {
+                            "id": "LIS",
+                            "entityId": "95565055",
+                            "name": "Lisbon",
+                            "displayCode": "LIS",
+                            "city": "Lisbon",
+                            "country": "Portugal",
+                            "isHighlighted": false
+                        },
+                        "durationInMinutes": 85,
+                        "stopCount": 0,
+                        "isSmallestStops": false,
+                        "departure": "2024-10-25T21:35:00",
+                        "arrival": "2024-10-25T22:00:00",
+                        "timeDeltaInDays": 0,
+                        "carriers": {
+                            "marketing": [
+                                {
+                                    "id": -31915,
+                                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FR.png",
+                                    "name": "Ryanair"
+                                }
+                            ],
+                            "operationType": "fully_operated"
+                        },
+                        "segments": [
+                            {
+                                "id": "13870-13577-2410252135-2410252200--31915",
+                                "origin": {
+                                    "flightPlaceId": "MAD",
+                                    "displayCode": "MAD",
+                                    "parent": {
+                                        "flightPlaceId": "MADR",
+                                        "displayCode": "MAD",
+                                        "name": "Madrid",
+                                        "type": "City"
+                                    },
+                                    "name": "Madrid",
+                                    "type": "Airport",
+                                    "country": "Spain"
+                                },
+                                "destination": {
+                                    "flightPlaceId": "LIS",
+                                    "displayCode": "LIS",
+                                    "parent": {
+                                        "flightPlaceId": "LISB",
+                                        "displayCode": "LIS",
+                                        "name": "Lisbon",
+                                        "type": "City"
+                                    },
+                                    "name": "Lisbon",
+                                    "type": "Airport",
+                                    "country": "Portugal"
+                                },
+                                "departure": "2024-10-25T21:35:00",
+                                "arrival": "2024-10-25T22:00:00",
+                                "durationInMinutes": 85,
+                                "flightNumber": "9744",
+                                "marketingCarrier": {
+                                    "id": -31915,
+                                    "name": "Ryanair",
+                                    "alternateId": "FR",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                },
+                                "operatingCarrier": {
+                                    "id": -31915,
+                                    "name": "Ryanair",
+                                    "alternateId": "FR",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "id": "13577-2410282000--32356-0-13870-2410282225",
+                        "origin": {
+                            "id": "LIS",
+                            "entityId": "95565055",
+                            "name": "Lisbon",
+                            "displayCode": "LIS",
+                            "city": "Lisbon",
+                            "country": "Portugal",
+                            "isHighlighted": false
+                        },
+                        "destination": {
+                            "id": "MAD",
+                            "entityId": "95565077",
+                            "name": "Madrid",
+                            "displayCode": "MAD",
+                            "city": "Madrid",
+                            "country": "Spain",
+                            "isHighlighted": false
+                        },
+                        "durationInMinutes": 85,
+                        "stopCount": 0,
+                        "isSmallestStops": false,
+                        "departure": "2024-10-28T20:00:00",
+                        "arrival": "2024-10-28T22:25:00",
+                        "timeDeltaInDays": 0,
+                        "carriers": {
+                            "marketing": [
+                                {
+                                    "id": -32356,
+                                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/EZ.png",
+                                    "name": "easyJet"
+                                }
+                            ],
+                            "operationType": "fully_operated"
+                        },
+                        "segments": [
+                            {
+                                "id": "13577-13870-2410282000-2410282225--32356",
+                                "origin": {
+                                    "flightPlaceId": "LIS",
+                                    "displayCode": "LIS",
+                                    "parent": {
+                                        "flightPlaceId": "LISB",
+                                        "displayCode": "LIS",
+                                        "name": "Lisbon",
+                                        "type": "City"
+                                    },
+                                    "name": "Lisbon",
+                                    "type": "Airport",
+                                    "country": "Portugal"
+                                },
+                                "destination": {
+                                    "flightPlaceId": "MAD",
+                                    "displayCode": "MAD",
+                                    "parent": {
+                                        "flightPlaceId": "MADR",
+                                        "displayCode": "MAD",
+                                        "name": "Madrid",
+                                        "type": "City"
+                                    },
+                                    "name": "Madrid",
+                                    "type": "Airport",
+                                    "country": "Spain"
+                                },
+                                "departure": "2024-10-28T20:00:00",
+                                "arrival": "2024-10-28T22:25:00",
+                                "durationInMinutes": 85,
+                                "flightNumber": "7651",
+                                "marketingCarrier": {
+                                    "id": -32356,
+                                    "name": "easyJet",
+                                    "alternateId": "EZ",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                },
+                                "operatingCarrier": {
+                                    "id": -32356,
+                                    "name": "easyJet",
+                                    "alternateId": "EZ",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "isSelfTransfer": false,
+                "isProtectedSelfTransfer": false,
+                "farePolicy": {
+                    "isChangeAllowed": false,
+                    "isPartiallyChangeable": false,
+                    "isCancellationAllowed": false,
+                    "isPartiallyRefundable": false
+                },
+                "fareAttributes": {},
+                "tags": [
+                    "third_cheapest"
+                ],
+                "isMashUp": true,
+                "hasFlexibleOptions": false,
+                "score": 0.750735
+            },
+            {
+                "id": "13870-2410252235--32356-0-13577-2410252255|13577-2410282200--31915-0-13870-2410290020",
+                "price": {
+                    "raw": 129.3,
+                    "formatted": "130 \u20ac",
+                    "pricingOptionId": "VJSuyY8ZZnlk"
+                },
+                "legs": [
+                    {
+                        "id": "13870-2410252235--32356-0-13577-2410252255",
+                        "origin": {
+                            "id": "MAD",
+                            "entityId": "95565077",
+                            "name": "Madrid",
+                            "displayCode": "MAD",
+                            "city": "Madrid",
+                            "country": "Spain",
+                            "isHighlighted": false
+                        },
+                        "destination": {
+                            "id": "LIS",
+                            "entityId": "95565055",
+                            "name": "Lisbon",
+                            "displayCode": "LIS",
+                            "city": "Lisbon",
+                            "country": "Portugal",
+                            "isHighlighted": false
+                        },
+                        "durationInMinutes": 80,
+                        "stopCount": 0,
+                        "isSmallestStops": false,
+                        "departure": "2024-10-25T22:35:00",
+                        "arrival": "2024-10-25T22:55:00",
+                        "timeDeltaInDays": 0,
+                        "carriers": {
+                            "marketing": [
+                                {
+                                    "id": -32356,
+                                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/EZ.png",
+                                    "name": "easyJet"
+                                }
+                            ],
+                            "operationType": "fully_operated"
+                        },
+                        "segments": [
+                            {
+                                "id": "13870-13577-2410252235-2410252255--32356",
+                                "origin": {
+                                    "flightPlaceId": "MAD",
+                                    "displayCode": "MAD",
+                                    "parent": {
+                                        "flightPlaceId": "MADR",
+                                        "displayCode": "MAD",
+                                        "name": "Madrid",
+                                        "type": "City"
+                                    },
+                                    "name": "Madrid",
+                                    "type": "Airport",
+                                    "country": "Spain"
+                                },
+                                "destination": {
+                                    "flightPlaceId": "LIS",
+                                    "displayCode": "LIS",
+                                    "parent": {
+                                        "flightPlaceId": "LISB",
+                                        "displayCode": "LIS",
+                                        "name": "Lisbon",
+                                        "type": "City"
+                                    },
+                                    "name": "Lisbon",
+                                    "type": "Airport",
+                                    "country": "Portugal"
+                                },
+                                "departure": "2024-10-25T22:35:00",
+                                "arrival": "2024-10-25T22:55:00",
+                                "durationInMinutes": 80,
+                                "flightNumber": "6724",
+                                "marketingCarrier": {
+                                    "id": -32356,
+                                    "name": "easyJet",
+                                    "alternateId": "EZ",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                },
+                                "operatingCarrier": {
+                                    "id": -32356,
+                                    "name": "easyJet",
+                                    "alternateId": "EZ",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "id": "13577-2410282200--31915-0-13870-2410290020",
+                        "origin": {
+                            "id": "LIS",
+                            "entityId": "95565055",
+                            "name": "Lisbon",
+                            "displayCode": "LIS",
+                            "city": "Lisbon",
+                            "country": "Portugal",
+                            "isHighlighted": false
+                        },
+                        "destination": {
+                            "id": "MAD",
+                            "entityId": "95565077",
+                            "name": "Madrid",
+                            "displayCode": "MAD",
+                            "city": "Madrid",
+                            "country": "Spain",
+                            "isHighlighted": false
+                        },
+                        "durationInMinutes": 80,
+                        "stopCount": 0,
+                        "isSmallestStops": false,
+                        "departure": "2024-10-28T22:00:00",
+                        "arrival": "2024-10-29T00:20:00",
+                        "timeDeltaInDays": 1,
+                        "carriers": {
+                            "marketing": [
+                                {
+                                    "id": -31915,
+                                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FR.png",
+                                    "name": "Ryanair"
+                                }
+                            ],
+                            "operationType": "fully_operated"
+                        },
+                        "segments": [
+                            {
+                                "id": "13577-13870-2410282200-2410290020--31915",
+                                "origin": {
+                                    "flightPlaceId": "LIS",
+                                    "displayCode": "LIS",
+                                    "parent": {
+                                        "flightPlaceId": "LISB",
+                                        "displayCode": "LIS",
+                                        "name": "Lisbon",
+                                        "type": "City"
+                                    },
+                                    "name": "Lisbon",
+                                    "type": "Airport",
+                                    "country": "Portugal"
+                                },
+                                "destination": {
+                                    "flightPlaceId": "MAD",
+                                    "displayCode": "MAD",
+                                    "parent": {
+                                        "flightPlaceId": "MADR",
+                                        "displayCode": "MAD",
+                                        "name": "Madrid",
+                                        "type": "City"
+                                    },
+                                    "name": "Madrid",
+                                    "type": "Airport",
+                                    "country": "Spain"
+                                },
+                                "departure": "2024-10-28T22:00:00",
+                                "arrival": "2024-10-29T00:20:00",
+                                "durationInMinutes": 80,
+                                "flightNumber": "9743",
+                                "marketingCarrier": {
+                                    "id": -31915,
+                                    "name": "Ryanair",
+                                    "alternateId": "FR",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                },
+                                "operatingCarrier": {
+                                    "id": -31915,
+                                    "name": "Ryanair",
+                                    "alternateId": "FR",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "isSelfTransfer": false,
+                "isProtectedSelfTransfer": false,
+                "farePolicy": {
+                    "isChangeAllowed": false,
+                    "isPartiallyChangeable": false,
+                    "isCancellationAllowed": false,
+                    "isPartiallyRefundable": false
+                },
+                "eco": {
+                    "ecoContenderDelta": 6.803882
+                },
+                "fareAttributes": {},
+                "tags": [
+                    "cheapest",
+                    "shortest"
+                ],
+                "isMashUp": true,
+                "hasFlexibleOptions": false,
+                "score": 0.732008
+            }
+        ],
+        "messages": [],
+        "filterStats": {
+            "duration": {
+                "min": 80,
+                "max": 85,
+                "multiCityMin": 160,
+                "multiCityMax": 170
+            },
+            "airports": [
+                {
+                    "city": "Lisbon",
+                    "airports": [
+                        {
+                            "id": "LIS",
+                            "entityId": "95565055",
+                            "name": "Lisbon"
+                        }
+                    ]
+                },
+                {
+                    "city": "Madrid",
+                    "airports": [
+                        {
+                            "id": "MAD",
+                            "entityId": "95565077",
+                            "name": "Madrid"
+                        }
+                    ]
+                }
+            ],
+            "carriers": [
+                {
+                    "id": -32356,
+                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/EZ.png",
+                    "name": "easyJet"
+                },
+                {
+                    "id": -32222,
+                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/IB.png",
+                    "name": "Iberia"
+                },
+                {
+                    "id": -31915,
+                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FR.png",
+                    "name": "Ryanair"
+                }
+            ],
+            "stopPrices": {
+                "direct": {
+                    "isPresent": true,
+                    "formattedPrice": "130 \u20ac"
+                },
+                "one": {
+                    "isPresent": false
+                },
+                "twoOrMore": {
+                    "isPresent": false
+                }
+            }
+        },
+        "flightsSessionId": "8861858c-a929-47b3-8059-7946da419997",
+        "destinationImageUrl": "https://content.skyscnr.com/m/3719e8f4a5daf43d/original/Flights-Placeholder.jpg"
+    }
+}
