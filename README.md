@@ -47,6 +47,7 @@ Este proyecto utiliza **Python 3.8** y las siguientes bibliotecas:
 - `matplotlib` (para visualizaciones)
 
 🌟 Información Clave del Análisis
+
 🏨 Comparación de Hospedajes
 Se han recopilado 40 alojamientos de cada ciudad. Los resultados muestran que los precios en Florencia son más altos, con un promedio de 727€, mientras que en Lisboa, el precio promedio es de 554€. La distribución de los precios en ambas ciudades indica que Florencia tiene más valores atípicos en los extremos superiores.
 
@@ -54,6 +55,7 @@ Precio promedio en Florencia: 727€
 Precio promedio en Lisboa: 554€
 Mediana en Florencia: Se concentra en precios más elevados.
 Mediana en Lisboa: Mayor concentración en el rango medio-bajo.
+
 ✈️ Comparación de Vuelos
 Los tiempos y precios de los vuelos varían dependiendo de las escalas y las aerolíneas. Los vuelos a Lisboa son más cortos y económicos comparados con Florencia.
 
@@ -61,12 +63,14 @@ Duración promedio de vuelos a Florencia: 265 minutos (desde Madrid).
 Duración promedio de vuelos a Lisboa: 82 minutos.
 Precio promedio de vuelos a Florencia: Más elevado en comparación con Lisboa.
 Precio promedio de vuelos a Lisboa: 152.42€, destacando Ryanair como la aerolínea más accesible.
+
 🚶 Comparación de Excursiones
 Las excursiones en Florencia resultan ser un poco más caras, especialmente en actividades relacionadas con museos y monumentos.
 
 Costo promedio de excursiones en Florencia: 81.10€
 Costo promedio de excursiones en Lisboa: 59.13€
 Excursiones más comunes: Recorridos de un día en ambas ciudades, con predominio de tours a museos en Florencia.
+
 📊 Resultados y Conclusiones
 Este análisis comparativo ha revelado diferencias importantes entre los dos destinos:
 
@@ -79,5 +83,6 @@ Este proyecto proporciona una visión clara para quien esté interesado en viaja
 Explorar más ciudades para ofrecer comparativas adicionales.
 Implementar un análisis predictivo para evaluar futuras tendencias en precios de vuelos y hospedajes.
 Incluir la integración con más APIs para obtener información en tiempo real.
+
 ✒️ Autor
 Nelson Carvajal - GitHub Profile
